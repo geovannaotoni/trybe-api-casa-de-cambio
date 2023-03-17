@@ -11,7 +11,7 @@ const p = document.getElementById('text-p');
 searchBtn.addEventListener('click', () => {
   const moeda = inputCoin.value.toUpperCase();
   const apiURL = `https://api.exchangerate.host/latest?base=${moeda}`;
-  const maxDecimal = 3;
+  const maxDec = 3;
 
   if (!moeda) {
     Swal.fire({
@@ -32,7 +32,9 @@ searchBtn.addEventListener('click', () => {
           arrayCoins.forEach((pairCoinValue) => {
             const [coin, value] = pairCoinValue;
             const li = document.createElement('li');
-            li.innerHTML = `${coin}: <span>${Number(value).toFixed(maxDecimal)}</span>`;
+            const emoji = '&#x1FA99;';
+            const coinValue = Number(value).toFixed(maxDec);
+            li.innerHTML = `${emoji} ${coin}: <span>${coinValue}</span>`;
             listCoin.appendChild(li);
           });
         } else {

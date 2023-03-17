@@ -15,8 +15,8 @@ body {
 
 header {
   color: #ffffff;
-  font-size: 2.2em;
-  margin: 15px 0;
+  font-size: 2.8em;
+  margin: 25px 0;
   text-align: left;
 }
 
@@ -31,13 +31,14 @@ section {
 section p {
   text-align: left;
   margin-bottom: 5px;
+  font-size: 1.3em;
 }
 
 button {
   background-color: #95eba8;
   cursor: pointer;
   padding: 15px 30px;
-  font-size: 1.2em;
+  font-size: 1.7em;
   border-radius: 10px;
   font-weight: bold;
 }
@@ -45,7 +46,7 @@ button {
 input {
   background-color: #35393f;
   padding: 15px 30px;
-  font-size: 1.2em;
+  font-size: 1.7em;
   cursor: pointer;
   border-radius: 10px;
   color: #ffffff;
@@ -60,11 +61,12 @@ main {
   background-color: #35393f;
   width: 80%;
   min-height: 450px;
+  border-radius: 12px;
 }
 
 main p {
   padding-top: 15px;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
 }
 
@@ -72,7 +74,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 15px;
+  gap: 20px;
   padding: 15px;
 }
 
@@ -82,6 +84,7 @@ li {
   border-radius: 15px;
   background-color: #282c33;
   color: #ffffff;
+  font-size: 1.5em;
 }
 
 li span {
@@ -94,11 +97,12 @@ p {
 
 footer {
   color: #ffffff;
-  height: 50px;
+  height: 80px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.5em;
 }
 
 a {
