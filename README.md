@@ -1,6 +1,8 @@
 # Casa de Câmbio
 O projeto da casa de câmbio é uma aplicação que realiza a conversão da taxa de uma moeda para outras a partir de uma API.
 
+<img src="./casa-de-cambio.gif">
+
 ## :computer: Visualize este projeto:
 Acesse a página aqui:
 [https://geovannaotoni-casa-de-cambio.surge.sh/](https://geovannaotoni-casa-de-cambio.surge.sh/)
