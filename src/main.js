@@ -1,6 +1,5 @@
-// import Swal from 'sweetalert2/dist/sweetalert2';
-import Swal from 'sweetalert2';
-import '@sweetalert2/theme-dark/dark.min.css';
+import Swal from 'sweetalert2/dist/sweetalert2.min';
+import '@sweetalert2/theme-dark/dark.css';
 import './style.css';
 
 const inputCoin = document.getElementById('input-coin');
